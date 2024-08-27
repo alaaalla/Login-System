@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css files/bootstrap.min.css">
+    <link rel="stylesheet" href="../css files/main.css">
+</head>
+
+<body>
+
+    <body class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark group p-2">
+            <div class="container d-flex justify-content-between align-items-center">
+               <a class="navbar-brand ms-2" href="#">SMART LOGIN</a>
+                <button class="menu navbar-toggler collapsed me-2" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <button class="logOut navbar-collapse collapse btn btn-outline-warning flex-grow-0 me-0"
+                    id="navbarSupportedContent">
+                    <a class=" text-white" href="../index.html">Logout</a>
+                </button>
+            </div>
+        </nav>
+        <div  class="container my-5 text-center d-flex justify-content-center align-items-center">
+            <div class="content p-5 w-75 bg-dark ">
+                <div class="w-50" >
+                    <img id="userPhoto" class="w-75 rounded-circle" src="../imgs/user.png" alt="">
+                </div>
+                <br>
+                <h1 id="userName" class="text-white"></h1>
+            </div>
+        </div>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="./welcomePage.js"></script>
+    </body>
+
+</html>
