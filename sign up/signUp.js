@@ -1,6 +1,5 @@
 "use strict"
 var userName = document.querySelector("#name");
-var userPhoto = document.querySelector("#image");
 var signUpEmail = document.querySelector("#email");
 var signUpPassword = document.querySelector("#password");
 var signUpBtn = document.querySelector("#signUp")
@@ -12,7 +11,6 @@ signUpBtn.addEventListener("click",signUp);
 function signUp() {
   var  user = {
         name: userName.value,
-        photo: userPhoto.value,
         email: signUpEmail.value,
         password: signUpPassword.value
     };
